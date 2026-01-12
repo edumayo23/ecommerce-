@@ -1,0 +1,36 @@
+# Dependencias
+node_modules/
+jspm_packages/
+
+# Logs de error
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Variables de entorno (Contienen claves secretas)
+.env
+.env.test
+.env.production
+
+# Carpeta de compilación (si usas TypeScript o Babel)
+dist/
+build/
+out/
+
+# Caché de herramientas
+.npm
+.eslintcache
+.cache/
+
+# Archivos del Sistema Operativo
+.DS_Store
+Thumbs.db
+
+# Configuración de VS Code (Opcional)
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
