@@ -34,3 +34,8 @@ Thumbs.db
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
+#OTROS
+.eslintcache
+.stylelintcache
+package-lock.json
