@@ -1,41 +1,51 @@
-# Dependencias
+# --- Dependencias ---
 node_modules/
 jspm_packages/
 
-# Logs de error
+# --- Logs y Debugging ---
 logs
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
 
-# Variables de entorno (Contienen claves secretas)
+# --- Variables de Entorno (SEGURIDAD) ---
 .env
 .env.test
 .env.production
+.env.local
+.env.*.local
 
-# Carpeta de compilación (si usas TypeScript o Babel)
+# --- Directorios de Compilación/Salida ---
 dist/
 build/
 out/
+.next/
+.nuxt/
+bin/
 
-# Caché de herramientas
-.npm
-.eslintcache
-.cache/
+# --- TypeScript ---
+*.tsbuildinfo
 
-# Archivos del Sistema Operativo
+# --- Testing y Cobertura ---
+coverage/
+.nyc_output/
+
+# --- Configuración de VS Code ---
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+*.code-workspace
+
+# --- Archivos del Sistema Operativo ---
 .DS_Store
 Thumbs.db
+Desktop.ini
 
-# Configuración de VS Code (Opcional)
-.vscode/
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-
-#OTROS
+# --- Otros ---
 .eslintcache
 .stylelintcache
 package-lock.json
