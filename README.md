@@ -1,25 +1,31 @@
-# 🎮 ZonGamer - E-commerce Workshop
+# 🕹️ ZonGamer | The Ultimate Hardware Hub
 
-¡Bienvenido a **ZonGamer**! Este es un proyecto desarrollado para el taller de **Diseño y creación de páginas web para negocios digitales**. [cite_start]Se trata de una aplicación web dinámica enfocada en hardware y periféricos gaming, construida con el stack de Node.js.
+Bienvenido al repositorio oficial de **ZonGamer**, una plataforma de comercio electrónico de alto rendimiento diseñada para entusiastas de la tecnología y el gaming. Este proyecto demuestra el poder de una arquitectura dinámica utilizando el stack de Node.js. (Proyecto realizado en la carrera de Negocios Digitales - Sexto Semestre).
 
-## 🛠️ Tecnologías Utilizadas
+## ⚔️ Arsenal Tecnológico
+Para construir esta base de operaciones, hemos desplegado las siguientes herramientas:
 
-* [cite_start]**Backend**: Node.js & Express.
-* [cite_start]**Frontend**: EJS (Embedded JavaScript templates) & Bootstrap 5.
-* [cite_start]**Herramientas de Desarrollo**: Nodemon para reinicio automático del servidor.
+* **Motor de Núcleo:** Node.js como entorno de ejecución principal.
+* **Protocolos de Comunicación:** Express.js para la gestión inteligente de rutas y middleware.
+* **Planos de Interfaz:** EJS (Embedded JavaScript) para el renderizado dinámico de datos en tiempo real.
+* **Blindaje Visual:** Bootstrap 5 para garantizar una interfaz responsiva y optimizada para cualquier pantalla.
+* **Radar de Desarrollo:** Nodemon configurado para el refresco automático del sistema ante cambios en el código.
 
-## 🌟 Características Actuales
+## 🎯 Atributos del Sistema
+* **Inventario en Tiempo Real:** Visualización automatizada de productos inyectados desde el servidor.
+* **Zonas de Navegación:** Sistema de filtrado por categorías mediante rutas dinámicas.
+* **Código de Grado Profesional:** Estructura organizada que separa la lógica del servidor de las plantillas de usuario.
 
-* [cite_start]**Navegación Dinámica**: Rutas configuradas para filtrar productos por categorías (Computadores y Periféricos).
-* [cite_start]**Motor de Plantillas**: Uso de EJS para renderizar datos dinámicos desde el servidor.
-* [cite_start]**Diseño Responsivo**: Interfaz moderna y adaptable gracias a Bootstrap.
+## 🗺️ Mapa del Proyecto
+El despliegue de archivos se organiza de la siguiente manera:
 
-## 📂 Estructura del Proyecto
+* `app.js`: El cerebro lógico que coordina el servidor y las rutas.
+* `views/`: Centro de renderizado donde reside la plantilla `index.ejs`.
+* `public/`: Almacén de suministros estáticos como CSS, imágenes y scripts de cliente.
+* `package.json`: El manifiesto de configuración con todas las dependencias críticas.
 
-```text
-.
-[cite_start]├── app.js          # Servidor principal y configuración de rutas 
-[cite_start]├── package.json    # Gestión de dependencias y scripts 
-[cite_start]├── public/         # Archivos estáticos (CSS, imágenes, JS cliente) 
-[cite_start]└── views/          # Plantillas de la interfaz (EJS) 
-    [cite_start]└── index.ejs   # Vista principal de productos
+## 🚀 Despliegue en Entorno Local
+Para iniciar el sistema en tu estación de trabajo, ejecuta los siguientes comandos:
+
+1. **Instalar Dependencias:**
+   npm install
